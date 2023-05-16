@@ -11,7 +11,7 @@ def averiguar_ascii():
     b = ord(a)
     str_label_rta.config(text=b)
 
-str_label = Label(window, bg="#384860", fg="#062513", font=("Courier", 18, "bold"), text="ESCRIBA UNA LETRA,\nSÍMBOLO O UN NÚMERO\nDE UN SOLO DÍGITO:", width=20)
+str_label = Label(window, bg="#384860", fg="wheat", font=("Courier", 18, "bold"), text="ESCRIBA UNA LETRA,\nSÍMBOLO O UN NÚMERO\nDE UN SOLO DÍGITO:", width=20)
 str_label.pack(anchor="center", pady=5, expand=1)
 
 str_input = Entry(window, bg="light blue", fg="#062513", font=("Helvetica", 16, "bold"), width=10)
